@@ -1,0 +1,39 @@
+{
+    "description": "Arduino library for X-Power AXP202 chip", 
+    "repository": {
+        "url": "https://github.com/lewisxhe/AXP202X_Library", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif32"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Lewis He", 
+            "url": null, 
+            "email": "lewishe@outlook.com"
+        }
+    ], 
+    "keywords": [
+        "communication"
+    ], 
+    "id": 6657, 
+    "name": "AXP202X_Library", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.1.0", 
+    "homepage": null
+}
